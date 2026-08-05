@@ -28,3 +28,9 @@ if __name__ == "__main__":
     result_2 = count_vowels(test_string2)
     print(f"The number of vowels in '{test_string}' is: {result}")
     print(f"The number of vowels in '{test_string2}' is: {result_2}")
+    e = "HEllo"
+    r = count_uppercase(e)
+    print(f"The number of uppercase in '{e}' is: {r}")
+    z = "hello"
+    t = feature_consonants(z)
+    print(f"The number of cons in '{z}' is: {t}")
