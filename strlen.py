@@ -6,6 +6,14 @@ def count_vowels(s):
             count += 1
     return count
 
+def feature_consonants(s):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in s:
+        if char not in vowels:
+            count += 1
+    return count
+
 if __name__ == "__main__":
     test_string = "vscode"
     test_string2 = "giithub"
